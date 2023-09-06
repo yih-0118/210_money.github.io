@@ -35,6 +35,10 @@ html,body {
   tr.highlighted {
     background-color: #ffc; 
   }
+  
+  .money_gone{
+    background-color: rgba(220, 20, 60, 0.09);
+  }
   /* <td></td><!--日期 -->
     <td></td><!--品項 -->
     <td></td><!--單價 -->
