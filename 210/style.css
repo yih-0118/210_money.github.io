@@ -1,81 +1,12 @@
-html,body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 20px;
-  }
-
-  #myButton {
-    justify-self: unset;
-   
-    margin-top: 90%;
-    width: 200px;
-    height: 100px;
-    font-size: 20px;
-    margin: 5px;
-    background-color: rgb(249,205,173);
-    color: rgb(52, 52, 52);
-    border: none;
-    cursor: pointer;
-    border-radius: 9cm;
-    transition: background-color 0.3s, transform 0.2s;
-  }
-
-  #myButton:hover {
-    background-color: #f23900;
-    transform: scale(1.05);
-  }
-
-  a {
-    color: inherit; 
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline; 
-  }
-  table {
-    border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #ffffff;
-  }
-  
-  th, td {
-    text-align: left;
-    padding: 8px;
-    border: 1px solid #ddd; 
-  }
-  
-  th {
-    background-color: #ffffff;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #ffffff;
-  }
-
-  tr.highlighted {
-    background-color: #ffc; 
-  }
-  
-  .money_gone{
-    background-color: rgba(220, 20, 60, 0.09);
-  }
-
-  @media screen and (max-width: 500px) {
-    #myButton {
-      width: 20vw;
-      font-size: 12px;
-      height: 1cm;
-    }
-    table {
-      font-size: 12px; 
-    }
-  
-    th, td {
-      padding: 1px;
-    }
-  
-    th {
-      background-color: #f0f0f0; 
-    }
-  }
+html,body{font-family:Arial,sans-serif;line-height:1.6;margin:20px}
+#myButton{margin-top:90%;width:200px;height:100px;font-size:20px;margin:5px;background-color:#f9cdad;color:#343434;border:none;cursor:pointer;border-radius:9cm;transition:background-color 0.3s,transform 0.2s}
+#myButton:hover{background-color:#f23900;transform:scale(1.05)}
+a{color:inherit;text-decoration:none}
+a:hover{text-decoration:underline}
+table{border-collapse:collapse;width:100%;border:1px solid #fff}
+th,td{text-align:left;padding:8px;border:1px solid #ddd}
+th{background-color:#fff}
+tr:nth-child(even){background-color:#fff}
+tr.highlighted{background-color:#ffc}
+.money_gone{background-color:rgba(220,20,60,0.09)}
+@media screen and (max-width:500px){#myButton{width:20vw;font-size:12px;height:1cm}table{font-size:12px}th,td{padding:1px}th{background-color:#f0f0f0}}
