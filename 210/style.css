@@ -8,5 +8,4 @@ th,td{text-align:left;padding:8px;border:1px solid #ddd}
 th{background-color:#fff}
 tr:nth-child(even){background-color:#fff}
 tr.highlighted{background-color:#ffc}
-.money_gone{background-color:rgba(220,20,60,0.09)}
 @media screen and (max-width:500px){#myButton{width:20vw;font-size:12px;height:1cm}table{font-size:12px}th,td{padding:1px}th{background-color:#f0f0f0}}
